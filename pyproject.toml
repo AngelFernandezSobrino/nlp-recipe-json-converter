@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "npl-recipt-json-converter"
+version = "0.1.0"
+description = ""
+authors = ["Ángel Fernández Sobrino <fernandezsobrinoangel@gmail.com>"]
+readme = "README.md"
+packages = [{include = "npl_recipt_json_converter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spacy = "^3.5.1"
+openai = "^0.27.2"
+transformers = "^4.27.2"
+torch = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
