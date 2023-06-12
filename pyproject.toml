@@ -10,7 +10,7 @@ packages = [{include = "npl_recipt_json_converter"}]
 python = "^3.11"
 spacy = "^3.5.1"
 openai = "^0.27.2"
-transformers = "^4.27.2"
+transformers = "^4.30.0"
 torch = "^2.0.0"
 
 
